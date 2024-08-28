@@ -1,0 +1,15 @@
+# Leitura de idade
+idade = int(input('Digite a sua idade: '))
+
+# Verificação da faixa etária
+if idade <= 12:
+    faixa_etaria = 'Criança'
+elif idade <= 17:
+    faixa_etaria = 'Adolescente'
+elif idade <= 64:
+    faixa_etaria = 'Adulto'
+else:
+    faixa_etaria = 'Idoso'
+
+# Exibição da faixa etária
+print(f'Você está na faixa etária: {faixa_etaria}')
